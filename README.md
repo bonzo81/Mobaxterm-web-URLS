@@ -1,7 +1,7 @@
 # Mobaxterm-web-telnet
 The extra files needed to use MobaXTerm from a weblink for EVE-NG
 
-When using EVE-NG, the web interface will try to open telent links in the following format. telnet://x.x.x.x:yyyyy where x is IP and y is port.
+When using EVE-NG, the web interface will try to open telnet links in the following format. telnet://x.x.x.x:yyyyy where x is IP and y is port.
 
 I wanted to use MobaXterm and it does not accept this format.
 
