@@ -1,8 +1,10 @@
 @echo off
 
 set var=%1
-set extract=%var:~6,-1%
-"C:\Program Files\PuTTY\putty.exe" %extract%
+set IP_ADDR=%var:~6,-1%
+
+set var=Please enter you Username:
+set /p USERID= %var%
 
  cd C:\Program Files (x86)\Mobatek\MobaXterm
- MobaXterm.exe -newtab "ssh andyn%extract%"
+ MobaXterm.exe -newtab "ssh %USERID%%IP_ADDR%"
