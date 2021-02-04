@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+ [HKEY_CURRENT_USER\SOFTWARE\Classes\MobaXterm.ssh]
+ @="ssh"
+
+ [HKEY_CURRENT_USER\SOFTWARE\Classes\MobaXterm.ssh\DefaultIcon]
+ @="C:\\Program Files (x86)\\Mobatek\\MobaXterm\\MobaXterm.exe, 0"
+
+ [HKEY_CURRENT_USER\SOFTWARE\Classes\MobaXterm.ssh\shell]
+
+ [HKEY_CURRENT_USER\SOFTWARE\Classes\MobaXterm.ssh\shell\open]
+
+ [HKEY_CURRENT_USER\SOFTWARE\Classes\MobaXterm.ssh\shell\open\command]
+ @="\"C:\\Program Files\\EVE-NG\\mobaxterm_ssh.bat\" %1"
+
+ [HKEY_CURRENT_USER\SOFTWARE\MobaXterm]
+
+ [HKEY_CURRENT_USER\SOFTWARE\MobaXterm\Capabilities]
+
+ [HKEY_CURRENT_USER\SOFTWARE\MobaXterm\Capabilities\URLAssociations]
+ "ssh"="MobaXterm.ssh"
+
+ [HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
+ "MobaXterm"="Software\\MobaXterm\\Capabilities"
+
+ [HKEY_CURRENT_USER\SOFTWARE\Classes\ssh\shell]
+
+ [HKEY_CURRENT_USER\SOFTWARE\Classes\ssh\shell\open]
+
+ [HKEY_CURRENT_USER\SOFTWARE\Classes\ssh\shell\open\command]
+ @="\"C:\\Program Files\\EVE-NG\\mobaxterm_ssh.bat\" %1"
+
+ [Computer\HKEY_CLASSES_ROOT\ssh\shell\open\command]
+ @="\"C:\\Program Files\\EVE-NG\\mobaxterm_ssh.bat\" %1"
