@@ -14,7 +14,7 @@ https://stackoverflow.com/questions/62150858/how-to-use-mobaxterm-as-default-tel
 The only extra step I had to take was convert the bat file into a exe file usnig free software 'bat to exe converter'. This was because windows complalined about it being a bat file.
 
 ### Files for Telnet
-Start_MobaXterm.exe
+Start_MobaXterm.exe \n
 win10_64bit_MobaXterm.reg
 
 ## SSH
@@ -27,7 +27,7 @@ I have changed to bat files slightly to firstly ask for a username (ssh needs th
 For some reason I didn't need to convert this bat to exe.
 
 ### Files for ssh
-win10_64bit_MobaXterm_SSH.reg
+win10_64bit_MobaXterm_SSH.reg \n
 mobaxterm_ssh.bat
 
 I placed the files within C:\Program Files\EVE-NG. If you put them somewhere else make sure to change the path in the bat files.
