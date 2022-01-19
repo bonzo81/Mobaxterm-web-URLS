@@ -11,11 +11,12 @@ I wanted to use MobaXterm as my terminal, but it does recognise either of these 
 
 >The following files use MobaxTerm as the terminal application. Both the reg file and bat file would need to be modified to use this with another terminal application. Watch for syntax change to call the program in line 10 of bat file.
 
+the repo is essentially based on the following post on stackoverflow We just tweak it a little.
+https://stackoverflow.com/questions/62150858/how-to-use-mobaxterm-as-default-telnet-handler-in-eve-ng
+
 I placed all files within C:\Program Files\WebSSH-Telnet. If you put them somewhere else make sure to change the paths in the reg files.
 
 ## Telnet
-With help from the following post we can get a work around:
-https://stackoverflow.com/questions/62150858/how-to-use-mobaxterm-as-default-telnet-handler-in-eve-ng
 
 I had to convert the bat file into a exe file because Windows complained about using a bat file. This is simplly done using free software 'bat to exe converter'. 
 
@@ -28,7 +29,7 @@ Much like telnet URLs we can add a registry entry for ssh protocols.
 This blog gives a good overview of how to get Putty to open ssh:// URLs: 
 https://johnsofteng.wordpress.com/2009/05/12/launch-putty-from-browser/
 
-I have changed the bat files slightly. Firstly to ask for a username (ssh needs this unlike telnet). 
+I have changed the bat files slightly. Firstly to ask for a username (ssh needs this unlike telnet). You could hardcode your username if you use the same one on all devices.
 
 ```
 set var=Please enter you Username:
