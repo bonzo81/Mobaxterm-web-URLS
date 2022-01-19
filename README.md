@@ -11,7 +11,7 @@ I wanted to use MobaXterm as my terminal, but it does recognise either of these 
 
 >The following files use MobaxTerm as the terminal application. Both the reg file and bat file would need to be modified to use this with another terminal application. Watch for syntax change to call the program in line 10 of bat file.
 
-the repo is essentially based on the following post on stackoverflow We just tweak it a little.
+Info in this repo is essentially based on the following post on stackoverflow. I've just tweaked it a little.
 https://stackoverflow.com/questions/62150858/how-to-use-mobaxterm-as-default-telnet-handler-in-eve-ng
 
 I placed all files within C:\Program Files\WebSSH-Telnet. If you put them somewhere else make sure to change the paths in the reg files.
