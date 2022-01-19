@@ -11,6 +11,7 @@ I wanted to use MobaXterm as my terminal, but it does recognise either of these 
 
 >The following files use MobaxTerm as the terminal application. Both the reg file and bat file would need to be modified to use this with another terminal application. Watch for syntax change to call the program in line 10 of bat file.
 
+I placed all files within C:\Program Files\WebSSH-Telnet. If you put them somewhere else make sure to change the paths in the reg files.
 
 ## Telnet
 With help from the following post we can get a work around:
@@ -47,4 +48,4 @@ If Windows complains about using a bat file then you can convert is to a exe usi
 * win10_64bit_MobaXterm_SSH.reg 
 * mobaxterm_ssh.bat
 
-I placed the files within C:\Program Files\EVE-NG. If you put them somewhere else make sure to change the path in the reg files.
+
