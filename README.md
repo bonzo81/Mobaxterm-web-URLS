@@ -42,7 +42,7 @@ cd C:\Program Files (x86)\Mobatek\MobaXterm
 MobaXterm.exe -newtab "ssh %USERID%@%IP_ADDR%"
 ```
 
-If Windows complains about using a bat file then you can convert is to a exe using a simple tool. See telnet section. 
+If Windows complains about using a bat file then you can convert is to a exe using a simple tool. See telnet section. Also change the lines in the reg file from .bat to .exe
 
 ### Files for ssh
 * win10_64bit_MobaXterm_SSH.reg 
