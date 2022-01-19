@@ -7,7 +7,7 @@ When using Librenms it is possible to open ssh connection to a device from the W
 
 For telnet connections with Librenms and EVE-NG, the web interface will try to open telnet links in the following format. telnet://x.x.x.x:yyyyy where x is IP and y is port (optional).
 
-I wanted to use MobaXterm as my terminal, but it does recognise either of these formats from a URL (or I couldn't get it to work). 
+I wanted to use MobaXterm as my terminal, but it doesn't appear to recognise either of these formats from a URL (or I couldn't get it to work). 
 
 >The following files use MobaxTerm as the terminal application. Both the reg file and bat file would need to be modified to use this with another terminal application. Watch for syntax change to call the program in line 10 of bat file.
 
