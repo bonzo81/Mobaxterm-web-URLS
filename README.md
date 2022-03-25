@@ -1,5 +1,8 @@
 # SSH & Telnet web URLs
 
+> I created a new repo to replace this see https://github.com/bonzo81/Moba-Putty-Web-Handler
+
+
 ## Background
 This repo is to solve the problem of opening telnet or ssh links from a web interface on Windows.
 
